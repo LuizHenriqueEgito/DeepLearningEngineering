@@ -1,0 +1,1 @@
+Aqui você irá colocar todo entendimento lógico, intuitivo e matematico de todos os seus temas com todos os estudos que você possui nas anotações do tablet e aqui você pode usar o Pytorch para implementar na mão coisas básicas funcionando para entender melhor.

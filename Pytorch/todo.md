@@ -1,0 +1,1 @@
+Aqui você irá testar e mostrar como funciona a maior parte das coisas no pytorch entender 100% o framework

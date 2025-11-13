@@ -1,0 +1,1 @@
+Aqui você irá colocar projetos de deep learning, tradução, seq to seq, series temporais, audio, imagem, classificação regressão etc.

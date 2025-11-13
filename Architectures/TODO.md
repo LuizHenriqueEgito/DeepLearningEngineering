@@ -1,0 +1,1 @@
+Aqui você irá colocar do básico ao avançado de uma arquitetura, Perceptron, MLP, CNN etc até o final mostrando o que cada uma delas está fazendo com desenhos e explicações passo a passo.
