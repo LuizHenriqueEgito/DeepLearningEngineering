@@ -75,9 +75,10 @@ def create_animation_plot(
     plt.close(fig)  # Evita mostrar figura duplicada
     
     # Gerar HTML com slider se solicitado
-    html = anim.to_jshtml()
+    # html = anim.to_jshtml()
     
-    return HTML(html)
+    # return HTML(html)
+    return anim
 
 
 # entenda e arrume
