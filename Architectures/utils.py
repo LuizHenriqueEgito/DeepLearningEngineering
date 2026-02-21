@@ -57,7 +57,7 @@ def create_animation_plot(
         ax.clear()
         frame_data = history['weights'][frame_idx]
         plot_func(ax, frame_data, **kwargs)
-        ax.set_title(f'{title_prefix} {frame_idx + 1}/{len(history["weights"])}')
+        ax.set_title(f'{title_prefix}')
         ax.grid(True, alpha=0.3)
         return ax,
     
@@ -73,36 +73,8 @@ def create_animation_plot(
     )
     
     plt.close(fig)  # Evita mostrar figura duplicada
-    
-    # Gerar HTML com slider se solicitado
+
     # html = anim.to_jshtml()
     
     # return HTML(html)
     return anim
-
-
-# entenda e arrume
-def decision_boundary(ax, weights, X, y, cmap):
-    x1_min, x1_max = X[:, 0].min() - 0.5, X[:, 0].max() + 0.5
-    x2_min, x2_max = X[:, 1].min() - 0.5, X[:, 1].max() + 0.5
-    x1, x2 = np.meshgrid(
-        np.linspace(x1_min, x1_max, 100),
-        np.linspace(x2_min, x2_max, 100)
-    )
-    X_grid = np.c_[x1.ravel(), x2.ravel()]
-    y_hat = forward(weights, X_grid)
-    y_hat = y_hat.reshape(x1.shape)
-    
-    ax.contourf(x1, x2, y_hat, levels=20, cmap=cmap, alpha=0.3)
-    ax.contour(x1, x2, y_hat, levels=[0], colors='black', linewidths=2)
-    ax.scatter(
-        X[:, 0],
-        X[:, 1],
-        c=y,
-        cmap=cmap, 
-        marker='X',
-        s=150,
-        edgecolors='black'
-    )
-    ax.set_xlabel('X_1')
-    ax.set_ylabel('X_2')
