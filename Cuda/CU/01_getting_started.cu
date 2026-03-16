@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cuda_runtime.h>
 
+// constante
 #define N 4
 /*
 BLOCO: é um grupo de threads que podem:
