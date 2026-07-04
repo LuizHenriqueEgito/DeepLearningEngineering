@@ -195,3 +195,8 @@ cython_debug/
 
 *.pt
 *.pth
+<<<<<<< HEAD
+=======
+
+*.csv
+>>>>>>> faf4cee2969aba14367adcdedf7c91a78b54c8f2
