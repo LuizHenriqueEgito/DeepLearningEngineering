@@ -1,0 +1,49 @@
+sequencias: https://timeseriesclassification.com/description.php?Dataset=PenDigits
+imagens:
+Dataset	Descrição	Link
+CIFAR-10 / CIFAR-100	Classificação de imagens pequenas	CIFAR
+ImageNet (Tiny / Full)	Classificação de objetos	ImageNet
+COCO	Detecção, segmentação, legendas	COCO
+CelebA	Rostos com atributos	CelebA
+Fashion MNIST	Imagens de roupas	FashionMNIST
+STL-10	Classificação semi-supervisionada	STL-10
+DeepFashion	Roupas e características	DeepFashion
+
+texto:
+Dataset	Descrição	Link
+IMDB Reviews	Classificação de sentimentos	IMDB
+SST-2 / GLUE Benchmark	Sentimento / NLU	GLUE
+AG News	Classificação de notícias	AG News
+SQuAD	Pergunta e Resposta	SQuAD
+Common Crawl / C4	Corpus massivo para pré-treinamento	C4
+
+áudio
+Dataset	Descrição	Link
+LibriSpeech	Reconhecimento de fala	LibriSpeech
+Google Speech Commands	Comandos curtos por voz	Speech Commands
+UrbanSound8K	Sons urbanos	UrbanSound8K
+
+vídeo
+Dataset	Descrição	Link
+UCF101	Classificação de ações humanas	UCF101
+Kinetics-400	Ações em vídeo	Kinetics
+Something-Something V2	Ações baseadas em contexto	20BN
+
+tabular
+Dataset	Descrição	Link
+UCI Machine Learning Repo	Dados clássicos (tabular)	UCI
+Kaggle Competitions	Dados variados	Kaggle
+OpenML	Dados variados	OpenML
+
+gan, vae, autoencoder
+|----------------------------|--------------------------------|
+| CelebA | Geração de rostos | CelebA |
+| MNIST / Fashion-MNIST | Geração de dígitos / roupas | MNIST |
+| LSUN Bedrooms / Churches | Geração de imagens grandes | LSUN |
+| 3D Shapes / Dsprites | Fatores de variação controlados | DeepMind Datasets |
+
+multimodal
+Dataset	Descrição	Link
+CLIP (LAION-5B)	Texto + Imagem	LAION
+Visual Genome	Imagem + Descrição	VisualGenome
+HowTo100M	Vídeo + Texto	HowTo100M
